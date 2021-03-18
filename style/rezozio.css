@@ -1,0 +1,218 @@
+/*SILLOU Justin */
+
+h1{
+  font-size: 30pt;
+  text-align: center;
+  background-color: rgba(228,237,67,0.75);
+  color: #333;
+  margin: 0;
+}
+
+#espace_fixe{
+  margin : 0 auto;
+  height: 80px;
+}
+
+#section_recherche{
+  position: absolute;
+  right: 7%;
+  top: 60px;
+}
+
+#section_messages{
+  width: 60%;
+  margin-top: 60px;
+}
+
+#gestion_abonnements img{
+  width: 48px;
+}
+
+#gestion_abonnements{
+  display: flex;
+  height: 400px;
+}
+
+#gestion_abonnements p{
+  font-weight: bold;
+}
+
+.connecte{
+  text-align: center;
+}
+
+textarea{
+  width: 600px;
+  height: 100px;
+  resize: none;
+  background-color: #f8f8f8;
+}
+
+.resultprofil{
+  width: 60%;
+  text-align: center;
+  border: 1px solid blue;
+}
+
+.resultprofil div{
+  display: inline-grid;
+}
+
+div#followers{
+  width: 200px;
+  text-align: center;
+}
+
+div#following{
+  width: 200px;
+  text-align: center;
+}
+
+div.messages div.message{
+  border:solid 4px #3b2e96;
+  border-radius: 5px;
+  margin-top: 5px;
+  height: 150px;
+}
+
+div.message div.infoUsers{
+  position: absolute;
+  height: 60px;
+  color : grey;
+  margin: -4% 0 0 7%;
+}
+
+div.message p{
+  margin: -91px 0 0 250px;
+  border: 1px solid grey;
+  height: 130px;
+  width: 400px;
+}
+
+div.messages img{
+  padding-top: 50px;
+  padding-left: 30px;
+  width: 48px;
+}
+
+div.messages time{
+  position: relative;
+  left: 30px;
+  top: -20px;
+}
+
+#espace_variable{
+  position: absolute;
+  right: 0;
+  width: 35%;
+  top: 150px;
+  background-color: grey;
+}
+
+div.resultrecherche img{
+  width: 48px;
+}
+
+ /* select, button{
+  background : #F7F9EE;
+  border : solid 1px;
+  padding : 3px;
+  border-radius : 5px;
+}
+
+body {
+     font-family : Helvetica ;
+     color : #F7F9EE;
+     background-color : #54586E;
+     padding : 0;
+     margin : 0;
+}
+#espace_fixe, #espace_variable {
+  position : absolute;
+  margin : 0;
+  padding : 9px;
+ }
+#espace_fixe {
+  left: 0;
+  right : 38%;
+  background-color : yellow;
+}
+#espace_variable{
+  left : 62%;
+  right : 0%;
+  background-color : #DA8238;
+}
+
+#espace_fixe>section{
+   position : absolute;
+   overflow: scroll;
+   margin : 0;
+   padding : 8px;
+}
+#section_equipe{
+  left : 0%;
+  right : 50%;
+  top : 0%;
+  height : 500px;
+  background : #a18c75;
+}
+#section_etape{
+  left: 50%; right : 0%;
+  top : 0%;
+  height : 500px;
+  background : #557561;  ;
+}
+#section_stats{
+  background-color : #757cA5;
+  left: 0; right : 0;
+  top : 515px;
+}
+#form_login{
+  text-align : right;
+}
+#espace_fixe>nav{
+  display:none;
+}
+
+body>h1 {
+  color : darkgrey ;
+  text-align : center;
+  margin : 0;
+  padding : 10px;
+  background-color : white;
+}
+fieldset {
+  border : 1px solid darkgrey ;
+  margin : 10px ;
+}
+section#errorMessage{
+  background-color : lightyellow;
+  padding : 5pt;
+  margin : 10px ;
+}
+#connecte>h2{
+  text-align : left;
+  margin-bottom : 4px;
+}
+#gestion_favoris{
+  margin-top : 15pt;
+  margin-bottom : 10pt;
+}
+#avatar{
+ float : right;
+ max-width : 80px;
+ max-height : 120px;
+}
+button.suppFav{
+ margin-left : 10px;
+}
+table {
+  border-collapse : collapse;
+}
+table td {
+  border : solid 1pt black;
+  padding : 3pt;
+}
+section#section_equipe>div.resultat span{
+ display : block;
+} */
